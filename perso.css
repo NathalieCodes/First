@@ -1,0 +1,214 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    color: #444;
+    font-size: 1.6em;
+    background: #d8e4fd;
+    background: -webkit-linear-gradient(120deg, #f7fafd 0%, #e6eeff 100%);
+    background: linear-gradient(120deg, #f7fafd 0%, #e6eeff 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    box-shadow: 0px 6px 10px 0px rgba(62,57,107,0.25)
+}
+
+a, a:visited {
+    color: #1756a9;
+}
+
+.header, .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.footer {
+    padding-top: 19px;
+    margin-top: 19px;
+    color: #777;
+    text-align: right;
+}
+
+.main-message {
+    line-height:1.125;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #444;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.link-list {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link-list a {
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    border: solid 2px #ddd;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.marketing {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.marketing h4 {
+    margin-top: 28px;
+}
+
+form {
+    padding-top: 20px;
+}
+
+.project {
+    background: #FFF;
+    margin-bottom: 20px;
+    transition: all 300ms;
+    cursor: pointer;
+    padding: 12px;
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+    min-height: 432px;
+    border-top: solid 3px #222;
+}
+
+.project:hover {
+    transform: translateY(-5px) translateZ(0);
+    box-shadow: 0 16px 32px 0 rgba(62,57,107,0.28), 0 0 0 transparent;
+}
+
+.project a:hover {
+    text-decoration: none;
+}
+
+.project-art {
+    min-height: 430px;
+}
+
+.project-blog {
+    min-height: 470px;
+}
+
+.project img {
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+
+.project h3 {
+    font-size: 20px;
+    color: #444;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 0px 6px 0;
+    padding-top: 12px;
+}
+
+.project p {
+    margin: 0 0px 6px 0px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #999;
+    font-size: 14px;
+}
+
+.tags {
+    margin: 0 0 6px 0;
+}
+
+.tag {
+    border-radius: 3px;
+    background: #CCC;
+    color: white;
+    font-size: 11px;
+    padding: 2px 5px;
+    display: inline-block;
+}
+
+.featured {
+    border-color: #17566D;
+}
+
+.featured .tag {
+    background: #17566D;
+}
+
+article .post-meta {
+    text-align: center;
+}
+
+.post-content h2 {
+    font-size: 28px;
+}
+
+.captures img {
+    width: 140px;
+    max-width: 100%;
+}
+
+.img-4-3 {
+    padding-bottom: 75%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1-1 {
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.mw {
+    max-width: 100%;
+}
+
+/** Medium style articles */
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: -1.5px;
+    line-height: 1.22;
+    letter-spacing: -.018em;
+    padding: 1.6rem 0 .6rem 0;
+    text-align: center;
+}
+
+article {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    word-wrap: break-word;
+}
